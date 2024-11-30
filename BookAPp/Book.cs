@@ -14,8 +14,7 @@ public static class BookGenerator
         // Configure Faker with locale and seed
         Randomizer.Seed = new Random(fakerSeed);
         var faker = new Faker(locale);
-        var lorem = new Bogus.DataSets.Lorem(locale: "en");
-        Console.WriteLine(lorem.Sentence(5));
+       
     
 
         // Generate books
