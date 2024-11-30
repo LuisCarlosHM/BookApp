@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "cd7Tovj2c1qUEa/nM6MmuPeCa3Yq/4vJTxftituoan0=",
+  "Source": "BookAPp",
+  "BasePath": "_content/BookAPp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BookAPp\\wwwroot",
+      "Source": "BookAPp",
+      "ContentRoot": "C:\\Users\\luis_\\OneDrive\\Documentos\\BookApp\\BookAPp\\wwwroot\\",
+      "BasePath": "_content/BookAPp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\luis_\\OneDrive\\Documentos\\BookApp\\BookAPp\\wwwroot\\index.html",
+      "SourceId": "BookAPp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\luis_\\OneDrive\\Documentos\\BookApp\\BookAPp\\wwwroot\\",
+      "BasePath": "_content/BookAPp",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}
