@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BookAPp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+328176cc8ff61aa60eafad02227a7e59c062e374")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c7a5d0f09a74dc55d11edef610ae26bd293dbbe")]
 [assembly: System.Reflection.AssemblyProductAttribute("BookAPp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BookAPp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

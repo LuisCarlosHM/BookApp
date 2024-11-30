@@ -6,7 +6,7 @@ using System.Linq;
 
 public static class BookGenerator
 {
-    public static IEnumerable<Book> GenerateBooks(int seed, int page, int count, double avgLikes, double avgReviews, string locale = "en")
+    public static IEnumerable<Book> GenerateBooks(int seed, int page, int count, double avgLikes, double avgReviews, string locale = "fr")
     {
         // Combine user seed with page number for reproducibility
         var fakerSeed = seed + page;
@@ -14,6 +14,9 @@ public static class BookGenerator
         // Configure Faker with locale and seed
         Randomizer.Seed = new Random(fakerSeed);
         var faker = new Faker(locale);
+        var lorem = new Bogus.DataSets.Lorem(locale: "en");
+        Console.WriteLine(lorem.Sentence(5));
+    
 
         // Generate books
         return Enumerable.Range(1, count).Select(index =>
@@ -22,6 +25,7 @@ public static class BookGenerator
             var reviews = GenerateFakeReviews(faker, avgReviews);
 
             return new Book
+            
             {
                 Index = (page - 1) * count + index,
                 ISBN = faker.Random.ReplaceNumbers("##########"), // Generate 10-digit ISBN
